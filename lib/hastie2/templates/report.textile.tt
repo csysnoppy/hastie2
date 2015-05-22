@@ -1,0 +1,21 @@
+---
+layout: report
+title: <%= title %>
+analyst: <%= options[:analyst] %>
+order: <%= options[:order] %>
+researcher: <%= options[:researcher] %> 
+pi: <%= options[:lab] %>
+permalink: <%= options[:permalink] %>
+data:
+- <%= options[:data_dir] %>/
+categories: 
+- open
+---
+
+h2. Objective
+
+h2. Data
+
+h2. Methods
+
+h2. Results
